@@ -7,6 +7,3 @@
 ## Tech
 
 Vite3, js
-
-## Link
-https://ryuga0719.github.io/stu-interactive11/

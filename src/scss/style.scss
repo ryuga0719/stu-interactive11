@@ -1,0 +1,39 @@
+@use "./reboot";
+
+img {
+  display: block;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #000;
+}
+
+.images {
+  position: relative;
+}
+
+.normal {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.bone {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  background: url(../../public/bone.png) no-repeat;
+  opacity: 0.8;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  box-shadow: inset 0px 0px 15px -5px rgba(0, 0, 0, 0.8),
+    0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
